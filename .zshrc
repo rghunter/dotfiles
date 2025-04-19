@@ -17,7 +17,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-plugins=(git docker zsh-aws-vault macos iterm2 kubectl kubectx)
+plugins=(git docker iterm2 kubectl)
 export ZSH="$HOME/.oh-my-zsh"
 
 # Virtualenvwrapper things
