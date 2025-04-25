@@ -1,6 +1,6 @@
 k9s:
-  liveViewAutoRefresh: false
-  screenDumpDir: /home/ryan/.local/state/k9s/screen-dumps
+  liveViewAutoRefresh: true
+  screenDumpDir: "${HOME}/.local/state/k9s/screen-dumps"
   refreshRate: 2
   maxConnRetry: 5
   readOnly: false
@@ -23,7 +23,7 @@ k9s:
       cpu: 100m
       memory: 100Mi
   imageScans:
-    enable: false
+    enable: true
     exclusions:
       namespaces: []
       labels: {}
@@ -33,7 +33,7 @@ k9s:
     sinceSeconds: -1
     textWrap: false
     disableAutoscroll: false
-    showTime: false
+    showTime: True
   thresholds:
     cpu:
       critical: 90

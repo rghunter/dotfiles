@@ -1,0 +1,12 @@
+[user]
+  name = Default Name
+  email = default@example.com
+
+[core]
+  editor = vim
+
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
